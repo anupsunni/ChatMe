@@ -1,0 +1,103 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    /*overflow:hidden;*/
+}
+.jumbotron { 
+    font-family: Montserrat, sans-serif;
+    background-color:#7A1EA1
+
+
+; 
+    color: #ffffff;
+    padding: 100px 25px;
+    height:800px;
+}
+.custom{
+	width: 125px;
+	background-color: rgb(63,81,181);
+}
+.custom:hover{
+	color: #ffffff;
+}
+.customa{
+	max-width: 400px;
+
+}
+.formcenter{
+	max-width:400px; margin-right:auto; margin-left:auto;
+}
+
+.container-fluid {
+    padding: 150px 50px;
+    height:700px;
+}
+
+.enveIcon{
+	font-size: 230px;
+	color: #7A1EA1;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+
+.reg{
+    font-family: Montserrat, sans-serif;
+	position: fixed;
+	margin-right: 30px;
+	padding: 12px;
+	top: 0px;
+	right: 0px;
+	background-color: white;
+	border-radius:0 0 10px 10px;
+	color: #7A1EA1
+
+
+;
+	border:3px;
+    font-size: 15px;
+}
+.reg:hover{
+	background-color: rgb(236,239,241);
+	border-bottom-color: #ffffff;
+	border:10px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}

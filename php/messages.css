@@ -1,0 +1,29 @@
+.s{
+position:absolute; right:30px; 
+				color:white; 
+				background-color: #4A148C; margin: 3px 0px; border-radius: 14px; padding:8px;				
+				font-size:15px;
+				min-width:60px;
+				text-align:center;
+}
+.r{
+	position:absolute; left:30px; 
+				color:white; 
+				background-color: #4A148C; margin: 3px; border-radius: 14px; padding:8px;				
+				font-size:15px;
+				min-width:60px;
+				text-align:center;
+}
+.st{
+position:absolute; right:30px; 
+ font-size: 10px;
+ margin:3px;
+ font-weight: bold;
+}
+
+.rt{
+	position:absolute; left:30px; 
+	font-size: 10px;
+	margin:3px;
+	font-weight: bold;
+}
