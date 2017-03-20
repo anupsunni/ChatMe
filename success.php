@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome to FlyCards</title>
+	<title>Welcome to ChatMe</title>
 
 
 <link rel="stylesheet" href="bsjs/bootstrap.min.css">
@@ -15,7 +15,7 @@
 
 <!-- LOGIN -->
 <div class="jumbotron text-center" style="margin-left:auto;">
-  <h1>Welcome to FlyCards</h1> 
+  <h1>Welcome to ChatMe</h1> 
    <a type="submit" class="btn custom" style="margin-top:40px; color:white; text-decoration:none;" href="index.php">Get Started</a>
 
 </div>
