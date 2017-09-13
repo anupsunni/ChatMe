@@ -2,7 +2,7 @@
 $servername= "localhost";
 $username= "username";
 $password="password";
-$dbName="lab";
+$dbName="ChatMe";
 $con= new mysqli($servername,$username,$password,$dbName);
 if ($con->connect_error) 
 {
